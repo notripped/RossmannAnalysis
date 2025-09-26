@@ -22,7 +22,16 @@ This project uses historical sales data from over 1,000 Rossmann stores to train
 - **Deployment:** Streamlit Community Cloud (or your choice)
 
 ## Project Structure
-
+```
+├── analysis.ipynb   # Saved, trained Prophet model
+├── app.py              # The Streamlit dashboard script
+├──     # Required Python packages
+├── rossmann-store-sales/               # Folder for data files
+│   ├── sample_submission.csv
+│   └── store.csv
+|   └── test.csv
+└── README.md
+```
 ## Setup and Usage
 
 To run this project locally, follow these steps:
