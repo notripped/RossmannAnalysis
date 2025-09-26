@@ -2,7 +2,7 @@
 
 An interactive web application that forecasts daily sales for Rossmann stores and provides data-driven promotional recommendations. This project demonstrates a full data science workflow from data cleaning and modeling to deployment.
 
-**Live Demo:** [Link to your deployed Streamlit App]
+The 'train.csv' is not available but you can find it on kaggle 
 
 ## Overview
 
