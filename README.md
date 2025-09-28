@@ -61,4 +61,4 @@ The predictive model was built using Facebook Prophet. The process involved:
 1.  **Data Cleaning:** Handled missing values for competition data and merged store and sales datasets.
 2.  **Feature Engineering:** One-hot encoded categorical features like `StoreType` and created a custom holiday calendar.
 3.  **Model Training:** Trained the Prophet model using sales data and included `Promo`, `SchoolHoliday`, and `StoreType` as external regressors.
-4.  **Hyperparameter Tuning:** A systematic grid search was performed to find the optimal parameters for `changepoint_prior_scale`, `seasonality_prior_scale`, and `holidays_prior_scale`, which reduced the final **RMSE to 1005.35**, a **33% improvement** over the baseline model.
+4.  **Hyperparameter Tuning:** A systematic grid search was performed to find the optimal parameters for `changepoint_prior_scale`, `seasonality_prior_scale`, and `holidays_prior_scale`, which reduced the final **RMSE to 849.5**, a **28% improvement** over the baseline model.
